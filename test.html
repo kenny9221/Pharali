@@ -25,10 +25,22 @@
       background-color: #f2f2f2;
       padding: 25px;
     }
+	
 	.ac {
-         	
-         margin-top:10px;
-	    }
+	  
+	  margin-top:14px;
+	  font-size:1em;
+	}
+	.ac a {
+	   text-decoration:none;
+	   color:gray;
+	}
+	
+	.ac a:hover {
+	     color:white;
+	}
+	
+	
   </style>
 </head>
 <body>
@@ -61,17 +73,17 @@
       <ul class="nav navbar-nav navbar-right" >
         <li>
 				
-		<div class="dropdown">
-    <p  id="menu1" data-toggle="dropdown">
+		<div class="dropdown" >
+    <p  id="menu1" data-toggle="dropdown" class ="ac">
 	   <span class="glyphicon glyphicon-user" ></span>
-	   <a href="#" class="ac"> Your Account</a>
+	   <a href="#" > Your Account</a>
     <span class="caret"></span></p>
     <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
       <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Login</a></li>
       <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> SinUp</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a> Wishlists</li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Wishlists</a> </li>
       <li role="presentation" class="divider"></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a> FAQ</li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">FAQ</a> </li>
     </ul>
   </div>
 		
